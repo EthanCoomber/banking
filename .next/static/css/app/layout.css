@@ -664,6 +664,9 @@ video {
   --tw-contain-paint:  ;
   --tw-contain-style:  ;
 }
+.flex {
+  display: flex;
+}
 .inline-flex {
   display: inline-flex;
 }
@@ -679,11 +682,23 @@ video {
 .w-10 {
   width: 2.5rem;
 }
+.w-full {
+  width: 100%;
+}
+.flex-col {
+  flex-direction: column;
+}
 .items-center {
   align-items: center;
 }
 .justify-center {
   justify-content: center;
+}
+.gap-6 {
+  gap: 1.5rem;
+}
+.gap-2 {
+  gap: 0.5rem;
 }
 .whitespace-nowrap {
   white-space: nowrap;
@@ -844,6 +859,10 @@ video {
   --tw-text-opacity: 1;
   color: rgb(5 79 49 / var(--tw-text-opacity));
 }
+.text-bankGradient {
+  --tw-text-opacity: 1;
+  color: rgb(1 121 254 / var(--tw-text-opacity));
+}
 .underline-offset-4 {
   text-underline-offset: 4px;
 }
@@ -869,7 +888,139 @@ video {
     transform: translate3d(var(--tw-exit-translate-x, 0), var(--tw-exit-translate-y, 0), 0) scale3d(var(--tw-exit-scale, 1), var(--tw-exit-scale, 1), var(--tw-exit-scale, 1)) rotate(var(--tw-exit-rotate, 0));
   }
 }
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-2 {
+  font-weight: 600;
+  --tw-text-opacity: 1;
+  color: rgb(16 24 40 / var(--tw-text-opacity));
+  font-size: 18px;
+  line-height: 22px;
+}
 /* Home */
+.home {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+.home::-webkit-scrollbar {
+  display: none;
+}
+.home {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+@media not all and (min-width: 1280px) {
+
+  .home {
+    max-height: 100vh;
+    overflow-y: scroll;
+  }
+}
+.home-content {
+  display: flex;
+  width: 100%;
+  flex: 1 1 0%;
+  flex-direction: column;
+  gap: 2rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
+}
+.home-content::-webkit-scrollbar {
+  display: none;
+}
+.home-content {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+@media (min-width: 640px) {
+
+  .home-content {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+@media (min-width: 1024px) {
+
+  .home-content {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+}
+@media (min-width: 1280px) {
+
+  .home-content {
+    max-height: 100vh;
+    overflow-y: scroll;
+  }
+}
+.home-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.total-balance {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 0.75rem;
+  border-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(234 236 240 / var(--tw-border-opacity));
+  padding: 1rem;
+  --tw-shadow: 0px 1px 3px 0px rgba(16, 24, 40, 0.10), 0px 1px 2px 0px rgba(16, 24, 40, 0.06);
+  --tw-shadow-colored: 0px 1px 3px 0px var(--tw-shadow-color), 0px 1px 2px 0px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+@media (min-width: 640px) {
+
+  .total-balance {
+    gap: 1.5rem;
+    padding: 1.5rem;
+  }
+}
+.total-balance-chart {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  max-width: 100px;
+  align-items: center;
+}
+@media (min-width: 640px) {
+
+  .total-balance-chart {
+    max-width: 120px;
+  }
+}
+.total-balance-label {
+  font-weight: 500;
+  --tw-text-opacity: 1;
+  color: rgb(71 84 103 / var(--tw-text-opacity));
+  font-size: 14px;
+  line-height: 20px;
+}
+.total-balance-amount {
+  flex: 1 1 0%;
+  font-weight: 600;
+  --tw-text-opacity: 1;
+  color: rgb(16 24 40 / var(--tw-text-opacity));
+  font-size: 24px;
+  line-height: 30px;
+}
+@media (min-width: 1024px) {
+
+  .total-balance-amount {
+    font-size: 30px;
+    line-height: 38px;
+  }
+}
 /* Right sidebar */
 /* My Banks */
 .my-banks {
@@ -891,6 +1042,57 @@ video {
   }
 }
 /* My Banks */
+.transactions {
+  display: flex;
+  max-height: 100vh;
+  width: 100%;
+  flex-direction: column;
+  gap: 2rem;
+  overflow-y: scroll;
+  --tw-bg-opacity: 1;
+  background-color: rgb(252 252 253 / var(--tw-bg-opacity));
+  padding: 2rem;
+}
+@media (min-width: 1280px) {
+
+  .transactions {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+}
+.header-box {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+.header-box-title {
+  font-weight: 600;
+  --tw-text-opacity: 1;
+  color: rgb(16 24 40 / var(--tw-text-opacity));
+  font-size: 24px;
+  line-height: 30px;
+}
+@media (min-width: 1024px) {
+
+  .header-box-title {
+    font-size: 30px;
+    line-height: 38px;
+  }
+}
+.header-box-subtext {
+  font-weight: 400;
+  --tw-text-opacity: 1;
+  color: rgb(71 84 103 / var(--tw-text-opacity));
+  font-size: 14px;
+  line-height: 20px;
+}
+@media (min-width: 1024px) {
+
+  .header-box-subtext {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
 /* Bank Card */
 /* Bank Info */
 /* Category Badge */
