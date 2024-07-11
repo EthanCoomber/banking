@@ -664,11 +664,25 @@ video {
   --tw-contain-paint:  ;
   --tw-contain-style:  ;
 }
+.relative {
+  position: relative;
+}
+.mb-12 {
+  margin-bottom: 3rem;
+}
 .flex {
   display: flex;
 }
 .inline-flex {
   display: inline-flex;
+}
+.size-6 {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.size-\[24px\] {
+  width: 24px;
+  height: 24px;
 }
 .h-10 {
   height: 2.5rem;
@@ -679,11 +693,17 @@ video {
 .h-9 {
   height: 2.25rem;
 }
+.h-screen {
+  height: 100vh;
+}
 .w-10 {
   width: 2.5rem;
 }
 .w-full {
   width: 100%;
+}
+.cursor-pointer {
+  cursor: pointer;
 }
 .flex-col {
   flex-direction: column;
@@ -699,6 +719,9 @@ video {
 }
 .gap-6 {
   gap: 1.5rem;
+}
+.gap-4 {
+  gap: 1rem;
 }
 .whitespace-nowrap {
   white-space: nowrap;
@@ -800,6 +823,9 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(2 122 72 / var(--tw-bg-opacity));
 }
+.bg-bank-gradient {
+  background-image: linear-gradient(90deg, #0179FE 0%, #4893FF 100%);
+}
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
@@ -815,6 +841,9 @@ video {
 .py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+}
+.font-inter {
+  font-family: var(--font-inter);
 }
 .text-sm {
   font-size: 0.875rem;
@@ -863,11 +892,23 @@ video {
   --tw-text-opacity: 1;
   color: rgb(5 79 49 / var(--tw-text-opacity));
 }
+.\!text-white {
+  --tw-text-opacity: 1 !important;
+  color: rgb(255 255 255 / var(--tw-text-opacity)) !important;
+}
 .underline-offset-4 {
   text-underline-offset: 4px;
 }
 .outline {
   outline-style: solid;
+}
+.brightness-\[3\] {
+  --tw-brightness: brightness(3);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+.invert-0 {
+  --tw-invert: invert(0);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 .transition-colors {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
@@ -1133,6 +1174,108 @@ video {
 /* Bank Info */
 /* Footer */
 /* Sidebar */
+.sidebar {
+  position: sticky;
+  left: 0px;
+  top: 0px;
+  display: flex;
+  height: 100vh;
+  width: fit-content;
+  flex-direction: column;
+  justify-content: space-between;
+  border-right-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(234 236 240 / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  padding-top: 2rem;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+@media not all and (min-width: 768px) {
+
+  .sidebar {
+    display: none;
+  }
+}
+@media (min-width: 640px) {
+
+  .sidebar {
+    padding: 1rem;
+  }
+}
+@media (min-width: 1280px) {
+
+  .sidebar {
+    padding: 1.5rem;
+  }
+}
+@media (min-width: 1536px) {
+
+  .sidebar {
+    width: 355px;
+  }
+}
+.sidebar-logo {
+  font-family: var(--font-ibm-plex-serif);
+  font-size: 26px;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(0 33 79 / var(--tw-text-opacity));
+}
+@media not all and (min-width: 1280px) {
+
+  .sidebar-logo {
+    display: none;
+  }
+}
+@media (min-width: 1536px) {
+
+  .sidebar-logo {
+    font-size: 26px;
+    line-height: 32px;
+  }
+}
+.sidebar-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  border-radius: 0.5rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+@media (min-width: 768px) {
+
+  .sidebar-link {
+    padding: 0.75rem;
+  }
+}
+@media (min-width: 1280px) {
+
+  .sidebar-link {
+    justify-content: flex-start;
+  }
+}
+@media (min-width: 1536px) {
+
+  .sidebar-link {
+    padding: 1rem;
+  }
+}
+.sidebar-label {
+  font-weight: 600;
+  --tw-text-opacity: 1;
+  color: rgb(52 64 84 / var(--tw-text-opacity));
+  font-size: 16px;
+  line-height: 24px;
+}
+@media not all and (min-width: 1280px) {
+
+  .sidebar-label {
+    display: none;
+  }
+}
 
 * {
   margin: 0;
@@ -1200,5 +1343,13 @@ video {
 
 .disabled\:opacity-50:disabled {
   opacity: 0.5;
+}
+
+@media not all and (min-width: 1280px) {
+
+  .max-xl\:size-14 {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
 }
 
