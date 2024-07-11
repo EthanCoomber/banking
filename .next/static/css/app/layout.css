@@ -694,11 +694,11 @@ video {
 .justify-center {
   justify-content: center;
 }
-.gap-6 {
-  gap: 1.5rem;
-}
 .gap-2 {
   gap: 0.5rem;
+}
+.gap-6 {
+  gap: 1.5rem;
 }
 .whitespace-nowrap {
   white-space: nowrap;
@@ -831,6 +831,10 @@ video {
   --tw-text-opacity: 1;
   color: rgb(52 64 84 / var(--tw-text-opacity));
 }
+.text-bankGradient {
+  --tw-text-opacity: 1;
+  color: rgb(1 121 254 / var(--tw-text-opacity));
+}
 .text-blue-700 {
   --tw-text-opacity: 1;
   color: rgb(23 92 211 / var(--tw-text-opacity));
@@ -858,10 +862,6 @@ video {
 .text-success-900 {
   --tw-text-opacity: 1;
   color: rgb(5 79 49 / var(--tw-text-opacity));
-}
-.text-bankGradient {
-  --tw-text-opacity: 1;
-  color: rgb(1 121 254 / var(--tw-text-opacity));
 }
 .underline-offset-4 {
   text-underline-offset: 4px;
