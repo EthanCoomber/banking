@@ -8,7 +8,7 @@ import Category from './Category'
 const RightSidebar = ({ user, transactions, banks }: RightSidebarProps) => {
   const categories: CategoryCount[] = countTransactionCategories(transactions);
 
-  console.log('user', user);
+  // console.log('user', user);
 
   return (
     <aside className="right-sidebar">
@@ -52,7 +52,7 @@ const RightSidebar = ({ user, transactions, banks }: RightSidebarProps) => {
               <BankCard 
                 key={banks[0].$id}
                 account={banks[0]}
-                userName={`${user.firstName} ${user.lastName}`}
+                userName={`${user.name}`}
                 showBalance={false}
               />
             </div>
@@ -61,7 +61,7 @@ const RightSidebar = ({ user, transactions, banks }: RightSidebarProps) => {
                 <BankCard 
                   key={banks[1].$id}
                   account={banks[1]}
-                  userName={`${user.firstName} ${user.lastName}`}
+                  userName={`${user.name}`}
                   showBalance={false}
                 />
               </div>

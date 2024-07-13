@@ -7,7 +7,7 @@ import React from 'react'
 const Home = async () => {
     const loggedIn = await getLoggedInUser();
 
-    console.log('loggedIn', loggedIn);
+    // console.log('loggedIn', loggedIn);
   return (
     <section className='home'>
         <div className='home-content'>
@@ -33,7 +33,7 @@ const Home = async () => {
             // transactions={account?.transactions}
             transactions={[]}
             // banks={accountsData?.slice(0, 2)}
-            banks={[]}
+            banks={[{ currentBalance: 123.50 }, { currentBalance: 500 }]}
         />
     </section>
   )
