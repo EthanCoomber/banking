@@ -121,17 +121,17 @@ export async function getLoggedInUser() {
   }
 }
 
-// export const logoutAccount = async () => {
-//   try {
-//     const { account } = await createSessionClient();
+export const logoutAccount = async () => {
+  try {
+    const { account } = await createSessionClient();
 
-//     cookies().delete('appwrite-session');
+    cookies().delete('appwrite-session');
 
-//     await account.deleteSession('current');
-//   } catch (error) {
-//     return null;
-//   }
-// }
+    await account.deleteSession('current');
+  } catch (error) {
+    return null;
+  }
+}
 
 // export const createLinkToken = async (user: User) => {
 //   try {
