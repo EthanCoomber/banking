@@ -33,11 +33,13 @@
     "29bd68d913040ba69d4d63d87e70b51323837b39": {
       "workers": {
         "app/(auth)/sign-in/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fethancoomber%2FDesktop%2FResume%20Projects%2Fbanking%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22getLoggedInUser%22%2C%22getUserInfo%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_2%22%2C%22signUp%22%2C%22signIn%22%2C%22%24%24ACTION_0%22%5D%5D%5D&__client_imported__=true!",
-        "app/(auth)/sign-up/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fethancoomber%2FDesktop%2FResume%20Projects%2Fbanking%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22getLoggedInUser%22%2C%22getUserInfo%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_2%22%2C%22signUp%22%2C%22signIn%22%2C%22%24%24ACTION_0%22%5D%5D%5D&__client_imported__=true!"
+        "app/(auth)/sign-up/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fethancoomber%2FDesktop%2FResume%20Projects%2Fbanking%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22getLoggedInUser%22%2C%22getUserInfo%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_2%22%2C%22signUp%22%2C%22signIn%22%2C%22%24%24ACTION_0%22%5D%5D%5D&__client_imported__=true!",
+        "app/(root)/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fethancoomber%2FDesktop%2FResume%20Projects%2Fbanking%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22getLoggedInUser%22%2C%22getUserInfo%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_2%22%2C%22signUp%22%2C%22signIn%22%2C%22%24%24ACTION_0%22%5D%5D%2C%5B%22%2FUsers%2Fethancoomber%2FDesktop%2FResume%20Projects%2Fbanking%2Flib%2Fappwrite.ts%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
         "app/(auth)/sign-in/page": "action-browser",
-        "app/(auth)/sign-up/page": "action-browser"
+        "app/(auth)/sign-up/page": "action-browser",
+        "app/(root)/page": "rsc"
       }
     },
     "2af15ae60648a594dbed73878d642c400e177292": {
@@ -53,11 +55,13 @@
     "35aa9b618226857908b9e05de8a96e21d1a4a671": {
       "workers": {
         "app/(auth)/sign-in/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fethancoomber%2FDesktop%2FResume%20Projects%2Fbanking%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22getLoggedInUser%22%2C%22getUserInfo%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_2%22%2C%22signUp%22%2C%22signIn%22%2C%22%24%24ACTION_0%22%5D%5D%5D&__client_imported__=true!",
-        "app/(auth)/sign-up/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fethancoomber%2FDesktop%2FResume%20Projects%2Fbanking%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22getLoggedInUser%22%2C%22getUserInfo%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_2%22%2C%22signUp%22%2C%22signIn%22%2C%22%24%24ACTION_0%22%5D%5D%5D&__client_imported__=true!"
+        "app/(auth)/sign-up/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fethancoomber%2FDesktop%2FResume%20Projects%2Fbanking%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22getLoggedInUser%22%2C%22getUserInfo%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_2%22%2C%22signUp%22%2C%22signIn%22%2C%22%24%24ACTION_0%22%5D%5D%5D&__client_imported__=true!",
+        "app/(root)/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fethancoomber%2FDesktop%2FResume%20Projects%2Fbanking%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22getLoggedInUser%22%2C%22getUserInfo%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_2%22%2C%22signUp%22%2C%22signIn%22%2C%22%24%24ACTION_0%22%5D%5D%2C%5B%22%2FUsers%2Fethancoomber%2FDesktop%2FResume%20Projects%2Fbanking%2Flib%2Fappwrite.ts%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
         "app/(auth)/sign-in/page": "action-browser",
-        "app/(auth)/sign-up/page": "action-browser"
+        "app/(auth)/sign-up/page": "action-browser",
+        "app/(root)/page": "rsc"
       }
     },
     "35edad62d3b49fb9b09599b485c10591b0b791a1": {
@@ -93,21 +97,25 @@
     "46fa87cdd911e167240f493ec48681501901f704": {
       "workers": {
         "app/(auth)/sign-in/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fethancoomber%2FDesktop%2FResume%20Projects%2Fbanking%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22getLoggedInUser%22%2C%22getUserInfo%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_2%22%2C%22signUp%22%2C%22signIn%22%2C%22%24%24ACTION_0%22%5D%5D%5D&__client_imported__=true!",
-        "app/(auth)/sign-up/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fethancoomber%2FDesktop%2FResume%20Projects%2Fbanking%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22getLoggedInUser%22%2C%22getUserInfo%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_2%22%2C%22signUp%22%2C%22signIn%22%2C%22%24%24ACTION_0%22%5D%5D%5D&__client_imported__=true!"
+        "app/(auth)/sign-up/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fethancoomber%2FDesktop%2FResume%20Projects%2Fbanking%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22getLoggedInUser%22%2C%22getUserInfo%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_2%22%2C%22signUp%22%2C%22signIn%22%2C%22%24%24ACTION_0%22%5D%5D%5D&__client_imported__=true!",
+        "app/(root)/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fethancoomber%2FDesktop%2FResume%20Projects%2Fbanking%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22getLoggedInUser%22%2C%22getUserInfo%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_2%22%2C%22signUp%22%2C%22signIn%22%2C%22%24%24ACTION_0%22%5D%5D%2C%5B%22%2FUsers%2Fethancoomber%2FDesktop%2FResume%20Projects%2Fbanking%2Flib%2Fappwrite.ts%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
         "app/(auth)/sign-in/page": "action-browser",
-        "app/(auth)/sign-up/page": "action-browser"
+        "app/(auth)/sign-up/page": "action-browser",
+        "app/(root)/page": "rsc"
       }
     },
     "4d833bf8dee9ed65aabff54e730cd23354485e4c": {
       "workers": {
         "app/(auth)/sign-in/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fethancoomber%2FDesktop%2FResume%20Projects%2Fbanking%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22getLoggedInUser%22%2C%22getUserInfo%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_2%22%2C%22signUp%22%2C%22signIn%22%2C%22%24%24ACTION_0%22%5D%5D%5D&__client_imported__=true!",
-        "app/(auth)/sign-up/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fethancoomber%2FDesktop%2FResume%20Projects%2Fbanking%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22getLoggedInUser%22%2C%22getUserInfo%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_2%22%2C%22signUp%22%2C%22signIn%22%2C%22%24%24ACTION_0%22%5D%5D%5D&__client_imported__=true!"
+        "app/(auth)/sign-up/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fethancoomber%2FDesktop%2FResume%20Projects%2Fbanking%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22getLoggedInUser%22%2C%22getUserInfo%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_2%22%2C%22signUp%22%2C%22signIn%22%2C%22%24%24ACTION_0%22%5D%5D%5D&__client_imported__=true!",
+        "app/(root)/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fethancoomber%2FDesktop%2FResume%20Projects%2Fbanking%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22getLoggedInUser%22%2C%22getUserInfo%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_2%22%2C%22signUp%22%2C%22signIn%22%2C%22%24%24ACTION_0%22%5D%5D%2C%5B%22%2FUsers%2Fethancoomber%2FDesktop%2FResume%20Projects%2Fbanking%2Flib%2Fappwrite.ts%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
         "app/(auth)/sign-in/page": "action-browser",
-        "app/(auth)/sign-up/page": "action-browser"
+        "app/(auth)/sign-up/page": "action-browser",
+        "app/(root)/page": "rsc"
       }
     },
     "615be9ebb69011ab02652a1591ed63650322553c": {
@@ -123,21 +131,25 @@
     "677680144aa7bb9f7aa997b3d3146f68e0afce4c": {
       "workers": {
         "app/(auth)/sign-in/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fethancoomber%2FDesktop%2FResume%20Projects%2Fbanking%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22getLoggedInUser%22%2C%22getUserInfo%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_2%22%2C%22signUp%22%2C%22signIn%22%2C%22%24%24ACTION_0%22%5D%5D%5D&__client_imported__=true!",
-        "app/(auth)/sign-up/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fethancoomber%2FDesktop%2FResume%20Projects%2Fbanking%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22getLoggedInUser%22%2C%22getUserInfo%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_2%22%2C%22signUp%22%2C%22signIn%22%2C%22%24%24ACTION_0%22%5D%5D%5D&__client_imported__=true!"
+        "app/(auth)/sign-up/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fethancoomber%2FDesktop%2FResume%20Projects%2Fbanking%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22getLoggedInUser%22%2C%22getUserInfo%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_2%22%2C%22signUp%22%2C%22signIn%22%2C%22%24%24ACTION_0%22%5D%5D%5D&__client_imported__=true!",
+        "app/(root)/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fethancoomber%2FDesktop%2FResume%20Projects%2Fbanking%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22getLoggedInUser%22%2C%22getUserInfo%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_2%22%2C%22signUp%22%2C%22signIn%22%2C%22%24%24ACTION_0%22%5D%5D%2C%5B%22%2FUsers%2Fethancoomber%2FDesktop%2FResume%20Projects%2Fbanking%2Flib%2Fappwrite.ts%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
         "app/(auth)/sign-in/page": "action-browser",
-        "app/(auth)/sign-up/page": "action-browser"
+        "app/(auth)/sign-up/page": "action-browser",
+        "app/(root)/page": "rsc"
       }
     },
     "9f24d97f4242dfe88f9977e4f4d2fa779c6e0059": {
       "workers": {
         "app/(auth)/sign-in/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fethancoomber%2FDesktop%2FResume%20Projects%2Fbanking%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22getLoggedInUser%22%2C%22getUserInfo%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_2%22%2C%22signUp%22%2C%22signIn%22%2C%22%24%24ACTION_0%22%5D%5D%5D&__client_imported__=true!",
-        "app/(auth)/sign-up/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fethancoomber%2FDesktop%2FResume%20Projects%2Fbanking%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22getLoggedInUser%22%2C%22getUserInfo%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_2%22%2C%22signUp%22%2C%22signIn%22%2C%22%24%24ACTION_0%22%5D%5D%5D&__client_imported__=true!"
+        "app/(auth)/sign-up/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fethancoomber%2FDesktop%2FResume%20Projects%2Fbanking%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22getLoggedInUser%22%2C%22getUserInfo%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_2%22%2C%22signUp%22%2C%22signIn%22%2C%22%24%24ACTION_0%22%5D%5D%5D&__client_imported__=true!",
+        "app/(root)/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fethancoomber%2FDesktop%2FResume%20Projects%2Fbanking%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22getLoggedInUser%22%2C%22getUserInfo%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_2%22%2C%22signUp%22%2C%22signIn%22%2C%22%24%24ACTION_0%22%5D%5D%2C%5B%22%2FUsers%2Fethancoomber%2FDesktop%2FResume%20Projects%2Fbanking%2Flib%2Fappwrite.ts%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
         "app/(auth)/sign-in/page": "action-browser",
-        "app/(auth)/sign-up/page": "action-browser"
+        "app/(auth)/sign-up/page": "action-browser",
+        "app/(root)/page": "rsc"
       }
     },
     "b0cd4eea58b47511aede6aa3c097906510427ca7": {
@@ -153,11 +165,13 @@
     "b2d965c116e290f563998c59e800b771078ec476": {
       "workers": {
         "app/(auth)/sign-in/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fethancoomber%2FDesktop%2FResume%20Projects%2Fbanking%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22getLoggedInUser%22%2C%22getUserInfo%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_2%22%2C%22signUp%22%2C%22signIn%22%2C%22%24%24ACTION_0%22%5D%5D%5D&__client_imported__=true!",
-        "app/(auth)/sign-up/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fethancoomber%2FDesktop%2FResume%20Projects%2Fbanking%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22getLoggedInUser%22%2C%22getUserInfo%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_2%22%2C%22signUp%22%2C%22signIn%22%2C%22%24%24ACTION_0%22%5D%5D%5D&__client_imported__=true!"
+        "app/(auth)/sign-up/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fethancoomber%2FDesktop%2FResume%20Projects%2Fbanking%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22getLoggedInUser%22%2C%22getUserInfo%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_2%22%2C%22signUp%22%2C%22signIn%22%2C%22%24%24ACTION_0%22%5D%5D%5D&__client_imported__=true!",
+        "app/(root)/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fethancoomber%2FDesktop%2FResume%20Projects%2Fbanking%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22getLoggedInUser%22%2C%22getUserInfo%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_2%22%2C%22signUp%22%2C%22signIn%22%2C%22%24%24ACTION_0%22%5D%5D%2C%5B%22%2FUsers%2Fethancoomber%2FDesktop%2FResume%20Projects%2Fbanking%2Flib%2Fappwrite.ts%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
         "app/(auth)/sign-in/page": "action-browser",
-        "app/(auth)/sign-up/page": "action-browser"
+        "app/(auth)/sign-up/page": "action-browser",
+        "app/(root)/page": "rsc"
       }
     },
     "bf332ae893fd7be39bdd8295fb125e01ca05a6be": {
@@ -208,6 +222,22 @@
       "layer": {
         "app/(auth)/sign-in/page": "action-browser",
         "app/(auth)/sign-up/page": "action-browser"
+      }
+    },
+    "b596307f36d6ce988eadf75eec32f29582ef5580": {
+      "workers": {
+        "app/(root)/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fethancoomber%2FDesktop%2FResume%20Projects%2Fbanking%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22getLoggedInUser%22%2C%22getUserInfo%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_2%22%2C%22signUp%22%2C%22signIn%22%2C%22%24%24ACTION_0%22%5D%5D%2C%5B%22%2FUsers%2Fethancoomber%2FDesktop%2FResume%20Projects%2Fbanking%2Flib%2Fappwrite.ts%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/(root)/page": "rsc"
+      }
+    },
+    "b937cd055912bd5a04840c88eb3c56fc9845bdf9": {
+      "workers": {
+        "app/(root)/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fethancoomber%2FDesktop%2FResume%20Projects%2Fbanking%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%22getLoggedInUser%22%2C%22getUserInfo%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_2%22%2C%22signUp%22%2C%22signIn%22%2C%22%24%24ACTION_0%22%5D%5D%2C%5B%22%2FUsers%2Fethancoomber%2FDesktop%2FResume%20Projects%2Fbanking%2Flib%2Fappwrite.ts%22%2C%5B%22createSessionClient%22%2C%22createAdminClient%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/(root)/page": "rsc"
       }
     }
   },
