@@ -61,8 +61,6 @@ export const signUp = async ({ password, ...userData }: SignUpParams) => {
   try {
     const { account, database } = await createAdminClient();
 
-    console.log('getting here?');
-
     newUserAccount = await account.create(
       ID.unique(), 
       email, 
@@ -102,7 +100,7 @@ export const signUp = async ({ password, ...userData }: SignUpParams) => {
       secure: true,
     });
 
-    return parseStringify(newUserAccount);
+    return parseStringify(newUser);
   } catch (error) {
     console.error('Error', error);
   }
@@ -140,7 +138,7 @@ export const createLinkToken = async (user: User) => {
       user: {
         client_user_id: user.$id
       },
-      client_name: `${user.name}`,
+      client_name: `${user.firstName} ${user.lastName}`,
       products: ['auth'] as Products[],
       language: 'en',
       country_codes: ['US'] as CountryCode[],
